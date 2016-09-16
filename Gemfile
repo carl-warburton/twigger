@@ -34,7 +34,12 @@ gem 'devise'
 # Use bootstrap-sass as the CSS framework for the application.
 gem 'bootstrap-sass', '~> 3.3.6'
 
+#Use acts_as_votable to enable likes and following for our users
 gem 'acts_as_votable', '~> 0.10.0'
+
+# Use font awesome rails to handle icon management
+gem "font-awesome-rails"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
