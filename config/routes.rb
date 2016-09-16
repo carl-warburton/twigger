@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :tweets
   root 'pages#feed'
     #changed 'get' to 'root'and added a # in between to make feed the home page
   devise_for :users
