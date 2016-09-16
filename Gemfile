@@ -33,6 +33,8 @@ gem 'devise'
 
 # Use bootstrap-sass as the CSS framework for the application.
 gem 'bootstrap-sass', '~> 3.3.6'
+
+gem 'acts_as_votable', '~> 0.10.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
